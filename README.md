@@ -1,0 +1,1 @@
+# TFG-Disseny-i-Avaluaci-d-una-Arquitectura-Edge-AI-sobre-una-Xarxa-Mesh-Resilient

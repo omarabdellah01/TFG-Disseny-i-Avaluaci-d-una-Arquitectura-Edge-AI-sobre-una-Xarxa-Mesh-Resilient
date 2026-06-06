@@ -1,0 +1,40 @@
+#!/bin/bash
+
+IP_MESH="192.168.10.x"
+IFACE="wlP1p1s0"
+
+echo "--- Iniciant Mesh a JETSON ($IFACE) ---"
+
+sudo nmcli dev set $IFACE managed no
+
+# Unblock WiFi
+sudo rfkill unblock wlan
+sudo rfkill unblock all
+
+# 2. Configuració Manual
+
+sudo ip link set $IFACE down
+
+echo "Configurant Ad-Hoc..."
+# MTU estándar
+sudo ip link set $IFACE mtu 1500
+sudo iwconfig $IFACE mode ad-hoc
+sudo iwconfig $IFACE essid TFG-Mesh-Omar
+sudo iwconfig $IFACE channel 11
+sudo iwconfig $IFACE ap any
+
+
+sudo ip link set $IFACE up
+
+# 3. Iniciar BATMAN
+echo "Activant BATMAN..."
+sudo modprobe batman-adv
+sudo batctl if add $IFACE
+
+echo "Aixecant bat0..."
+sudo ip link set bat0 up
+sudo ip link set bat0 address a2:de:c3:cd:24:01
+
+# MTU REDUIT per la virtual
+sudo ip link set bat0 mtu 1460
+sudo ip addr add $IP_MESH/24 dev bat0

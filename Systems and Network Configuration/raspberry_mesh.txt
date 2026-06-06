@@ -1,0 +1,37 @@
+#!/bin/bash
+
+IP_MESH="192.168.10.x"   
+IFACE="wlan0"
+
+echo "--- Iniciant Mesh (Modo Lite) en $IFACE ---"
+
+sudo systemctl stop wpa_supplicant
+
+sudo rfkill unblock wlan 2>/dev/null
+
+Configurar WiFi (Ad-Hoc, Canal 11)
+echo "Bajando interfaz..."
+sudo ip link set $IFACE down
+
+echo "Configurando Ad-Hoc..."
+sudo iwconfig $IFACE mode ad-hoc
+sudo iwconfig $IFACE essid TFG-Mesh-Omar
+sudo iwconfig $IFACE channel 11
+sudo iwconfig $IFACE ap any
+
+echo "Subiendo interfaz..."
+sudo ip link set $IFACE up
+
+Activar BATMAN
+echo "Activando BATMAN..."
+sudo modprobe batman-adv
+sudo batctl if add $IFACE
+sudo ip link set bat0 up
+
+Ajuste MTU y Dirección IP
+sudo ip link set bat0 mtu 1460
+sudo ip addr add $IP_MESH/24 dev bat0
+
+echo "-------------------------------------------"
+echo " ¡LISTO!
+echo "-------------------------------------------"

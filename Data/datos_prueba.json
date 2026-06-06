@@ -1,0 +1,379 @@
+[
+    {
+        "timestamp": "2026-05-05 20:13:24",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=1.15 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=3.88 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.90 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.147/3.309/4.900/1.584 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.653 ms  0.585 ms  0.586 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.16 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=4.11 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=0.794 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 0.794/2.020/4.108/1.483 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.907 ms  0.866 ms  0.884 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:13:33",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=0.883 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=0.855 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=1.05 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2057ms\nrtt min/avg/max/mdev = 0.855/0.928/1.048/0.085 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.665 ms  0.587 ms  0.603 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.62 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=4.13 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=4.06 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 1.619/3.269/4.129/1.167 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.650 ms  0.587 ms  0.568 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:13:42",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=0.871 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.01 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.09 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2023ms\nrtt min/avg/max/mdev = 0.871/3.324/5.012/1.775 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  0.626 ms  2.261 ms  0.577 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.15 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=3.57 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=1.08 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.075/1.930/3.568/1.158 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  0.868 ms  0.856 ms  0.844 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:13:51",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=0.923 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=3.93 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.08 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2055ms\nrtt min/avg/max/mdev = 0.923/2.976/4.082/1.453 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.853 ms  0.595 ms  0.575 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.888 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=5.00 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=4.10 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2061ms\nrtt min/avg/max/mdev = 0.888/3.328/4.999/1.764 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  0.866 ms  0.820 ms  0.828 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:14:01",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=3.71 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=4.14 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=1.04 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.037/2.962/4.137/1.372 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.904 ms  0.591 ms  0.625 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.939 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=4.15 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=7.54 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2052ms\nrtt min/avg/max/mdev = 0.939/4.208/7.541/2.695 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  7.397 ms  0.610 ms  1.116 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:14:10",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=9.18 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=20.1 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=11.5 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 9.180/13.566/20.066/4.688 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.698 ms  3.882 ms  1.481 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=6.31 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=9.44 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=4.69 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 4.689/6.813/9.440/1.971 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  21.092 ms  43.777 ms  9.973 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:14:19",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=12.6 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=20.5 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=21.4 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 12.635/18.193/21.435/3.948 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  27.940 ms  33.943 ms  26.451 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=15.4 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=17.2 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=13.4 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 13.355/15.286/17.153/1.551 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  24.061 ms  27.223 ms   *\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:14:30",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "Timeout"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "Timeout"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:15:15",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "Timeout"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  2.281 ms  1.386 ms  1.359 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:15:50",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=4.87 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=4.94 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=5.04 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2004ms\nrtt min/avg/max/mdev = 4.868/4.946/5.036/0.069 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.645 ms  0.588 ms  0.597 ms\n 2: 60:ff:9e:af:c6:7b  1.393 ms  1.349 ms  1.322 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.905 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=1.10 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=3.95 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2061ms\nrtt min/avg/max/mdev = 0.905/1.985/3.949/1.391 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  0.877 ms  0.864 ms  0.915 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:00",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=2.36 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=2.50 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=5.35 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 2.363/3.403/5.347/1.375 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  1.219 ms  1.418 ms  2.237 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.881 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=4.06 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=6.68 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2043ms\nrtt min/avg/max/mdev = 0.881/3.873/6.679/2.370 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  4.577 ms  0.841 ms  0.838 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:09",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=5.66 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.99 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=5.34 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 5.342/5.666/5.992/0.265 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  4.278 ms  1.238 ms  1.226 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.62 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=3.85 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=3.95 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2004ms\nrtt min/avg/max/mdev = 1.616/3.138/3.950/1.077 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  0.636 ms  0.577 ms  0.581 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:18",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=4.83 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.34 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=2.33 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 2.326/4.163/5.339/1.316 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  4.370 ms  3.724 ms  1.256 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.22 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=3.91 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=3.94 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.222/3.022/3.938/1.273 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.677 ms  0.593 ms  0.583 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:27",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=6.21 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.58 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.68 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 4.681/5.489/6.210/0.627 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  6.899 ms  0.880 ms  1.042 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.954 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=6.96 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=4.19 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 0.954/4.033/6.955/2.452 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  4.001 ms  0.889 ms  0.897 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:36",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=1.60 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=4.55 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.61 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.599/3.586/4.605/1.405 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  4.216 ms  3.930 ms  1.165 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.19 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=4.42 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=1.16 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.160/2.255/4.419/1.529 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.689 ms  0.653 ms  0.590 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:45",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=1.97 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=1.52 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.64 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.523/2.710/4.635/1.373 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  0.933 ms  0.867 ms  0.922 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.18 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=4.13 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=1.13 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 1.128/2.144/4.128/1.403 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.908 ms  1.664 ms  2.417 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:16:54",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=4.64 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=1.70 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=1.80 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.700/2.714/4.642/1.363 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.997 ms  0.939 ms  0.984 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.898 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=3.80 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=4.56 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2059ms\nrtt min/avg/max/mdev = 0.898/3.084/4.557/1.576 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  0.892 ms  0.572 ms  0.578 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:17:03",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=4.60 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.01 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.59 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 4.589/4.733/5.008/0.194 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  4.441 ms  1.838 ms  0.922 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.58 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=5.42 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=4.80 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.580/3.934/5.424/1.684 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  3.661 ms  0.582 ms  0.614 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:17:13",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=10.1 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.72 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=5.91 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 5.724/7.242/10.090/2.015 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  5.832 ms  0.771 ms  0.781 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=6.11 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=7.27 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=7.46 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 6.111/6.944/7.455/0.594 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  7.472 ms  0.610 ms  7.330 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:17:22",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=14.2 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=16.4 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=12.5 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 12.509/14.356/16.357/1.574 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  5.663 ms  3.318 ms  3.382 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=16.6 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=14.1 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=12.4 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 12.398/14.367/16.564/1.708 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  29.905 ms  41.660 ms  40.692 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:17:31",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=17.0 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=6.41 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 2 received, 33.3333% packet loss, time 2028ms\nrtt min/avg/max/mdev = 6.411/11.712/17.014/5.301 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  6.460 ms  41.136 ms  1.390 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81   *  11.354 ms   *\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:17:40",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "Timeout"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "Timeout",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  23.401 ms  6.138 ms  4.711 ms\n 2: 60:ff:9e:af:b4:81  8.277 ms  1.743 ms  1.660 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:17:59",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=12.45 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=13.82 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=12.98 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 12.450/13.083/13.820/0.560 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  4.120 ms  5.801 ms  4.952 ms\n 2: 60:ff:9e:af:c6:7b  12.605 ms  13.910 ms  12.877 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=19.82 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=21.05 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=18.64 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2005ms\nrtt min/avg/max/mdev = 18.640/19.836/21.050/0.985 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  6.412 ms  8.104 ms  5.922 ms\n 2: 60:ff:9e:af:b4:81  19.305 ms  21.118 ms  20.450 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:18:08",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=15.92 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=17.54 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=16.98 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2004ms\nrtt min/avg/max/mdev = 15.920/16.813/17.540/0.665 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  6.812 ms  7.204 ms  6.551 ms\n 2: 60:ff:9e:af:c6:7b  16.102 ms  17.881 ms  16.634 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=24.15 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=26.31 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=25.22 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2006ms\nrtt min/avg/max/mdev = 24.150/25.226/26.310/0.882 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  7.415 ms  8.903 ms  8.112 ms\n 2: 60:ff:9e:af:b4:81  24.811 ms  25.993 ms  26.504 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:18:17",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=12.77 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=14.12 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=13.35 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 12.770/13.413/14.120/0.553 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  4.513 ms  5.109 ms  4.882 ms\n 2: 60:ff:9e:af:c6:7b  13.015 ms  14.221 ms  13.840 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=14.88 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=16.25 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=15.71 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 14.880/15.613/16.250/0.564 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  5.214 ms  6.331 ms  5.705 ms\n 2: 60:ff:9e:af:b4:81  15.112 ms  16.488 ms  15.935 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:18:26",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=7.65 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=8.42 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=8.11 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 7.650/8.060/8.420/0.315 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  2.102 ms  2.855 ms  2.451 ms\n 2: 60:ff:9e:af:c6:7b  7.912 ms  8.504 ms  8.215 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=5.82 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=6.35 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=6.01 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2002ms\nrtt min/avg/max/mdev = 5.820/6.060/6.350/0.218 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 2c:cf:67:d7:c6:91  2.311 ms  2.905 ms  2.650 ms\n 2: 60:ff:9e:af:b4:81  6.105 ms  6.442 ms  5.922 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:18:35",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=9.67 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=7.87 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=1.58 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2004ms\nrtt min/avg/max/mdev = 1.584/6.374/9.666/3.465 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  7.172 ms  1.914 ms  3.426 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=1.47 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=9.25 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=7.63 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 1.465/6.113/9.249/3.353 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  7.009 ms  0.971 ms  0.914 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:18:44",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=5.47 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=4.12 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.15 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 4.121/4.582/5.474/0.630 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.834 ms  0.757 ms  0.733 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=4.47 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=7.96 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=7.57 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2004ms\nrtt min/avg/max/mdev = 4.466/6.664/7.959/1.562 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  7.169 ms  2.383 ms  0.837 ms\n"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-05 20:18:54",
+        "destinos": {
+            "192.168.10.1": {
+                "ping_80bytes": "PING 192.168.10.1 (192.168.10.1) 80(108) bytes of data.\n88 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=4.09 ms\n88 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=5.87 ms\n88 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=4.07 ms\n\n--- 192.168.10.1 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 4.073/4.676/5.868/0.842 ms\n",
+                "batman_hops": "traceroute to 192.168.10.1 (60:ff:9e:af:c6:7b), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:c6:7b  3.403 ms  0.688 ms  0.759 ms\n"
+            },
+            "192.168.10.2": {
+                "ping_80bytes": "PING 192.168.10.2 (192.168.10.2) 80(108) bytes of data.\n88 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=3.36 ms\n88 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=7.57 ms\n88 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=7.55 ms\n\n--- 192.168.10.2 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 2003ms\nrtt min/avg/max/mdev = 3.363/6.163/7.574/1.980 ms\n",
+                "batman_hops": "traceroute to 192.168.10.2 (60:ff:9e:af:b4:81), 50 hops max, 20 byte packets\n 1: 60:ff:9e:af:b4:81  8.469 ms  1.133 ms  1.110 ms\n"
+            }
+        }
+    }
+]
